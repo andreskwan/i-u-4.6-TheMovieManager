@@ -33,11 +33,20 @@ class TMDBClient : NSObject {
 
     // MARK: GET
     
-    //func taskForGETMethod(method: String, var parameters: [String:AnyObject], completionHandlerForGET: (result: AnyObject!, error: NSError?) -> Void) -> NSURLSessionDataTask {}
+    func taskForGETMethod(method: String,
+                  var parameters: [String:AnyObject],
+         completionHandlerForGET: (result: AnyObject!, error: NSError?) -> Void) -> NSURLSessionDataTask {
+    
+    }
     
     // MARK: POST
     
-    //func taskForPOSTMethod(method: String, var parameters: [String:AnyObject], jsonBody: [String:AnyObject], completionHandlerForPOST: (result: AnyObject!, error: NSError?) -> Void) -> NSURLSessionDataTask {}
+    func taskForPOSTMethod(method: String,
+                   var parameters: [String:AnyObject],
+                         jsonBody: [String:AnyObject],
+         completionHandlerForPOST: (result: AnyObject!, error: NSError?) -> Void) -> NSURLSessionDataTask {
+    
+    }
     
     // MARK: GET Image
     
